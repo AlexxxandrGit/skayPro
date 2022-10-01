@@ -3,10 +3,12 @@ package variables;
 public class Main {
 
 
-    public static void main(String[] args){task8();}
+    public static void main(String[] args) {
+        task8();
+    }
 
 
-    public static void task6(){
+    public static void task6() {
 
         System.out.println("Задача 1");
         System.out.println();
@@ -21,12 +23,12 @@ public class Main {
 
     }
 
-    public static void task7(){
+    public static void task7() {
 
         int a = 5;
         int b = 7;
         a = a + b - a;
-        b = (b+b+b+b+b)/a;
+        b = (b + b + b + b + b) / a;
         System.out.println(a);
         System.out.println(b);
 
@@ -34,11 +36,10 @@ public class Main {
 
     public static void task8() {
         int a = 125;
-        int b = (a % 100)/10;
+        int b = (a % 100) / 10;
         System.out.println(b);
 
     }
-
 
 
 }
